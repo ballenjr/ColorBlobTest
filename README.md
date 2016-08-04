@@ -23,6 +23,7 @@ cd ColorBlobTest;
 ```
 - Init cordova and source files
 ```
+npm install;
 gulp build;
 cordova prepare;
 cp build-extras.gradle platforms/android/build-extras.gradle
