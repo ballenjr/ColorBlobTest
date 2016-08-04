@@ -26,7 +26,7 @@ cd ColorBlobTest;
 ```
 gulp build;
 cordova prepare;
-cp build-extras.gradle platform/android/build-extras.gradle
+cp build-extras.gradle platforms/android/build-extras.gradle
 cordova run;
 ```
 
