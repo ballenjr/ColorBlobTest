@@ -1,0 +1,38 @@
+<span ui-content-for="breadcrumb">Explore</span>
+
+<!--<style>
+  @media screen and (device-aspect-ratio: 16/9), screen and (orientation: landscape) {
+    .col-xs-12 {
+        width: 50%;
+    }
+  }
+</style>-->
+
+
+<div class="scrollable">
+	<div class="scrollable-content">
+		<section class="container page-pad">
+
+			<h1 class="page-header">Explore</h1>
+
+			<ul class="nav nav-pills upstacker-tabs">
+				<li class="pull-left active">
+					<a href="#/followed-stacks">
+						Stacks I'm Following
+					</a>
+				</li>
+				<li class="pull-right">
+					<a href="#/followed-users">
+						Users I'm Following
+					</a>
+				</li>
+			</ul>
+
+			<div class="row" ng-init="data = (this | q: {}:'Stack':'posts')">
+				<div class="col-xs-12 col-md-4 col-lg-2" ng-repeat="stack in data">
+					<pre>{{[stack.toJSON()] | uniq: 'id' | JSONstringify}}</pre>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
