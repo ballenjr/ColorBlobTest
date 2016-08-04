@@ -20,18 +20,15 @@
         <allow-intent href="market:*" />
         <preference name="Fullscreen" value="true" />
         <preference name="android-manifest/application/@android:theme" value="@android:style/Theme.Holo.NoActionBar.Fullscreen" />
-        <config-file target="AndroidManifest.xml" parent="./application">
-            <activity 
-                android:label="@string/activity_name"
-                android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
-                android:name="MainActivity">
+        <config-file parent="./application" target="AndroidManifest.xml">
+            <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:label="@string/activity_name" android:name="MainActivity">
                 <intent-filter>
                     <action android:name="android.intent.action.MAIN" />
                     <category android:name="android.intent.category.LAUNCHER" />
                 </intent-filter>
             </activity>
         </config-file>
-        <config-file target="AndroidManifest.xml" parent="/*">
+        <config-file parent="/*" target="AndroidManifest.xml">
             <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
         </config-file>
     </platform>

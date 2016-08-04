@@ -1,29 +1,42 @@
 {
-  "name": "upstacker",
-  "version": "0.0.0",
-  "devDependencies": {
-    "gulp": "latest",
-    "gulp-connect": "latest",
-    "gulp-ignore": "latest",
-    "gulp-rimraf": "latest",
-    "gulp-less": "latest",
-    "gulp-concat": "latest",
-    "gulp-order": "latest",
-    "gulp-uglify": "latest",
-    "run-sequence": "latest",
-    "gulp-sourcemaps": "latest",
-    "gulp-cssmin": "latest",
-    "gulp-angular-templatecache": "latest",
-    "gulp-ng-annotate": "latest",
-    "gulp-mobilizer": "latest",
-    "weinre": "latest",
-    "gulp-replace": "latest",
-    "gulp-angular-filesort": "latest",
-    "streamqueue": "latest",
-    "gulp-rename": "latest"
+  "version": "2.0.3",
+  "name": "cordova-custom-config",
+  "cordova_name": "cordova-custom-config",
+  "description": "Cordova/Phonegap plugin to update platform configuration files based on preferences and config-file data defined in config.xml.",
+  "author": "Dave Alden",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpa99c/cordova-custom-config.git"
   },
+  "cordova": {
+    "id": "cordova-custom-config",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "issue": "https://github.com/dpa99c/cordova-custom-config/issues",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "phonegap",
+    "config",
+    "configuration",
+    "plist",
+    "manifest"
+  ],
   "dependencies": {
-    "lodash": "^4.14.1",
-    "lodash.keyby": "^4.5.1"
+    "colors": "1.1.2",
+    "elementtree": "0.1.6",
+    "fs-extra": "0.26.5",
+    "lodash": "4.3.0",
+    "lodash.keyby": "^4.5.1",
+    "plist": "1.2.0",
+    "shelljs": "0.7.0",
+    "tostr": "0.1.0",
+    "xcode": "0.8.3"
   }
 }
