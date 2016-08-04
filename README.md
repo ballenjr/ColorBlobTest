@@ -9,7 +9,6 @@ This app is simply for testing the cordova-plugin-colorblobselector. It will ser
   - bower
   - gulp
   - cordova 6.1+
-- 
 
 ### To get started:
 - Clone the repos
