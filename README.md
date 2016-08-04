@@ -8,7 +8,7 @@ git clone https://github.com/ballenjr/ColorBlobTest.git;
 git clone https://github.com/ballenjr/cordova-plugin-colorblobselector.git;
 cd ColorBlobTest;
 ```
-- For now you will need to edit the config file to direct the plugin reference to the absolute or relative path that you just put it in. Right now it is set to my relative path(../../git/ColorBlobPlugin), but soon it will point to the github repo and I will change these instructions to match.
+- For now you will need to edit the config.xml file to direct the plugin reference to the absolute or relative path that you just put it in. Right now it is set to my relative path(../../git/ColorBlobPlugin), but soon it will point to the github repo and I will change these instructions to match.
 ```
 <plugin name="cordova-plugin-colorblobselector" spec="[Your Path Here]" />
 ```
