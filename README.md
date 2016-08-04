@@ -6,9 +6,9 @@ This app is simply for testing the cordova-plugin-colorblobselector. It will ser
 - Android SDK/Build Tools
 - NodeJS
  - npm globals:
-  - bower
-  - gulp
-  - cordova 6.1+
+   - bower
+    - gulp
+    - cordova 6.1+
 
 ### To get started:
 - Clone the repos
