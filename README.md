@@ -1,6 +1,16 @@
 # ColorBlobTest
 This app is simply for testing the cordova-plugin-colorblobselector. It will serve as the baseline/demonstration for using the plugin in the future as well.
 
+### Prerequisites
+- Java 1.7+
+- Android SDK/Build Tools
+- NodeJS
+ - npm globals:
+  - bower
+  - gulp
+  - cordova 6.1+
+- 
+
 ### To get started:
 - Clone the repos
 ```
@@ -16,6 +26,7 @@ cd ColorBlobTest;
 ```
 gulp build;
 cordova prepare;
+cp build-extras.gradle platform/android/build-extras.gradle
 cordova run;
 ```
 
