@@ -25,8 +25,11 @@ cd ColorBlobTest;
 ```
 npm install;
 gulp build;
-cordova prepare;
-cp build-extras.gradle platforms/android/build-extras.gradle
+cordova prepare; // Can ignore the error from cordova-custom-config plugin
+cp build-extras.gradle platforms/android/build-extras.gradle;
+cd plugins/cordova-custom-config;
+npm install;
+cd ..;
 cordova run;
 ```
 
